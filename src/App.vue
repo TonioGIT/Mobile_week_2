@@ -6,14 +6,16 @@
     <ul>
       <li><input type="button" v-on:click= "onMachinesListClick" id="button" value="LISTE DES MACHINES"></li>
       <li><input type="button" v-on:click= "onMapClick" id="button" value="CARTE"></li>
-      <!-- <toto></toto> -->
-      <!-- <laCarte></laCarte> -->
+      <machines-list></machines-list>
+      <machines-map></machines-map>
     </ul>
    
   </div>
 </template>
 
 <script>
+import MachinesList from './MachinesList.vue'
+import MachinesMap from './MachinesMap.vue'
 export default {
   name: 'app',
   data () {
@@ -21,7 +23,11 @@ export default {
       msg: 'COFFEE AROUND THE WORLD...'
     }
   },
-  methods: {
+  components: {
+    MachinesList,
+    MachinesMap,
+  },
+   methods: {
     onMachinesListClick: function() {
       window.alert("Vous allez vers la liste des machines !");
     },

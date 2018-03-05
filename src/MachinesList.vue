@@ -1,12 +1,16 @@
 <template>
-    <h1>Carte des machines</h1> 
+    <div>
+        <h1>Liste des machines</h1> 
+    </div>    
 </template>
 
 <script>
 export default {
-  
+  name: 'machines-list',
 }
-</script scoped>
+</script>
+
+
+<style scoped>
 
 </style>
-
