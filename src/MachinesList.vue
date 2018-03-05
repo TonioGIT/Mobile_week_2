@@ -1,5 +1,12 @@
-// <script>
-// Vue.component('MachinesList', {
-//   template: <h1>Liste des machines</h1>,
-// })
-// </script>
+<template>
+    <h1>Carte des machines</h1> 
+</template>
+
+<script>
+export default {
+  
+}
+</script scoped>
+
+</style>
+
