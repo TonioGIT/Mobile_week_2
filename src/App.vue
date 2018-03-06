@@ -13,9 +13,9 @@
 </template>
 
 <script>
-import MachinesList from './MachinesList.vue'
-import MachinesMap from './MachinesMap.vue'
-import Machine from './Machine.vue'
+// import MachinesList from './MachinesList.vue'
+// import MachinesMap from './MachinesMap.vue'
+
 export default {
   name: 'app',
   data () {
@@ -23,18 +23,18 @@ export default {
       msg: 'COFFEE AROUND THE WORLD...'
     }
   },
-  components: {
-    MachinesList,
-    MachinesMap,
-  },
-   methods: {
-    onMachinesListClick: function() {
-      window.alert("Vous allez vers la liste des machines !");
-    },
-    onMapClick: function() {
-      window.alert("Vous allez vers la carte des machines !");
-    }
-}
+  // components: {
+  //   MachinesList,
+  //   MachinesMap,
+  // },
+  //  methods: {
+  //   onMachinesListClick: function() {
+  //     window.alert("Vous allez vers la liste des machines !");
+  //   },
+  //   onMapClick: function() {
+  //     window.alert("Vous allez vers la carte des machines !");
+  //   }
+  // }
 }
 
 

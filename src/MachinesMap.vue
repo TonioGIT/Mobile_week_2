@@ -6,7 +6,7 @@
 
 <script>
     export default {
-        name: 'machines-map',
+        // name: 'machines-map',
 }
 </script>
 
