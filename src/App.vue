@@ -6,11 +6,9 @@
     <ul>
       <li><input type="button" v-on:click= "onMachinesListClick" id="button" value="LISTE DES MACHINES"></li>
       <li><input type="button" v-on:click= "onMapClick" id="button" value="CARTE"></li>
-      <machines-list></machines-list>
-      <machines-map></machines-map>
+      <router-view></router-view>
     </ul>
-   
-  </div>
+  </div>  
 </template>
 
 <script>

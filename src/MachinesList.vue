@@ -5,8 +5,8 @@
 </template>
 
 <script>
-export default {
-  name: 'machines-list',
+    export default {
+        name: 'machines-list',
 }
 </script>
 

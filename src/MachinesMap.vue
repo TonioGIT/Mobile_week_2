@@ -5,8 +5,8 @@
 </template>
 
 <script>
-export default {
-  name: 'machines-map',
+    export default {
+        name: 'machines-map',
 }
 </script>
 
