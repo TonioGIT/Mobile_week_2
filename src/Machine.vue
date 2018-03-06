@@ -2,8 +2,8 @@
     <div>
         <br>
         <h1>{{ machineName }} : {{machine.name}}</h1>
-        <h2 id="red" v-if="machine.status" >{{machineStat}} KO</h2>
-        <h2 id="green" v-else>{{machineStat}} OK</h2>
+        <h2 id="red" v-if="machine.status" >{{machineStat}} KO...</h2>
+        <h2 id="green" v-else>{{machineStat}} OK !</h2>
         <h2>{{ machineDate }} : {{machine.checkedAt}}</h2>
     </div>    
 </template>
