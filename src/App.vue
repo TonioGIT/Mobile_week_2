@@ -15,6 +15,7 @@
 <script>
 import MachinesList from './MachinesList.vue'
 import MachinesMap from './MachinesMap.vue'
+import Machine from './Machine.vue'
 export default {
   name: 'app',
   data () {
