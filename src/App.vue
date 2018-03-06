@@ -4,8 +4,9 @@
     <h1>{{ msg }}</h1>
     <h2>Choisissez un module:</h2>
     <ul>
-      <li><input type="button" v-on:click= "onMachinesListClick" id="button" value="LISTE DES MACHINES"></li>
-      <li><input type="button" v-on:click= "onMapClick" id="button" value="CARTE"></li>
+      <li><router-link :to="'home'" id="button">HOME</router-link></li>
+      <li><router-link :to="'machines'" id="button">LISTE DES MACHINES</router-link></li>
+      <li><router-link :to="'map'" id="button">CARTE DES MACHINES</router-link></li>
       <router-view></router-view>
     </ul>
   </div>  
